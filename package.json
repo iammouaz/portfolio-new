@@ -1,5 +1,6 @@
 {
-  "name": "my-porto",
+  "homepage": "https://iammouaz.github.io/portfolio-new",
+  "name": "portfolio-new",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
