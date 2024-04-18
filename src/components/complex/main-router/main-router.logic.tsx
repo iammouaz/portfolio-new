@@ -7,24 +7,24 @@ import TestimonialsPage from "../../pages/testimonials-page/testimonials-page";
 export const useLogic = () => {
   const router = [
     {
-      path: "/",
+      path: "",
       element: <HomePage />,
     },
     {
-      path: "/about_me",
+      path: "about_me",
       element: <AboutMePage />,
     },
 
     {
-      path: "/portofolio",
+      path: "portofolio",
       element: <Portofolio />,
     },
     {
-      path: "/contact_me",
+      path: "contact_me",
       element: <ContactMePage />,
     },
     {
-      path: "/testimonials",
+      path: "testimonials",
       element: <TestimonialsPage />,
     },
   ];
