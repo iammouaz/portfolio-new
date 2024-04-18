@@ -24,7 +24,7 @@ export const useLogic = () => {
       element: <ContactMePage />,
     },
     {
-      path: "testimonials",
+      path: "/testimonials",
       element: <TestimonialsPage />,
     },
   ];

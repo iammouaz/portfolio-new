@@ -38,7 +38,7 @@ const App: FunctionComponent<AppProps> = () => {
   console.log(status);
   return (
     <ThemeProvider>
-      <BrowserRouter>
+      <BrowserRouter basename="/">
         <div className="uk-flex-row-reverse uk-flex uk-position-z-index">
           <MainLayoutTemplate>
             <ParticalsTemplate>
